@@ -3,49 +3,75 @@
 
 [![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&labelColor=2c2c32&color=007acc&logoColor=007acc)](https://open.vscode.dev/microsoft/Web-Dev-For-Beginners)
 
-<p align="center">
-  
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
 
+## Mục Tiêu
+Dự án này nhằm phát triển một website bán thiết bị tin học với các tính năng tiên tiến như:
+- In hóa đơn bán hàng
+- Gửi email xác nhận đơn hàng
+- Phân quyền quản trị hệ thống
+- Đề xuất sản phẩm thường được mua kèm
+- Đề xuất sản phẩm trong khi tìm kiếm
+- Hệ thống hỗ trợ thông minh (chat AI)
+- Chat trực tiếp với nhân viên
 
+## Kiến Trúc
+Dự án sử dụng Laravel Framework. Các thành phần chính của hệ thống bao gồm:
+- **Laravel**: Quản lý backend, xử lý logic, và kết nối cơ sở dữ liệu.
+- **MySQL**: Lưu trữ dữ liệu sản phẩm, đơn hàng và người dùng.
+- **Composer**: Quản lý các thư viện PHP cần thiết.
 
-## How to Install
-- Install PHP version 7.3 to 8.0 and Composer.
-- Download the project from GitHub:
+## Phần Mềm Cần Thiết
+Để triển khai dự án, bạn cần cài đặt các phần mềm sau:
+- PHP phiên bản 7.3 đến 8.0
+- Composer
+- MySQL
 
-          git clone https://github.com/NgoTanLoi01/itshop-laravel-vuejs.git
-          
-- Project setup:
+## Cách Thức Chạy Chương Trình
 
-          composer install
-          composer update
+### Cài Đặt
+1. **Cài đặt PHP và Composer**:
+   - Cài đặt PHP phiên bản từ 7.3 đến 8.0.
+   - Cài đặt Composer.
 
-- Run the project:
-    - Run the following command to remove the old symbolic link in the Laravel public directory:
-   
-           Remove-Item -Recurse -Force public\storage
-           
-    - Run the following command to create a new symbolic link in the Laravel public directory:
-   
-           php artisan storage:link
-           
-    - Run the following command to create database tables:
-   
-          php artisan migrate:fresh --seed
-          
-    - Start the Laravel project:
-    
-          php artisan serve
-          
-    - Access the localhost address that appears:
-    
-          http://127.0.0.1:8000/
+2. **Tải dự án từ GitHub**:
+    ```sh
+    git clone https://github.com/NgoTanLoi01/itshop-laravel-vuejs.git
+    ```
 
-## Author Contact Information
-  - Full Name: Ngo Tan Loi
-  - Phone: +84 337 120 073
-  - Email: ngotanloi2424@gmail.com
+3. **Thiết lập dự án**:
+    ```sh
+    composer install
+    composer update
+    ```
+
+### Chạy Dự Án
+1. **Xóa liên kết tượng trưng cũ trong thư mục công khai của Laravel**:
+    ```sh
+    Remove-Item -Recurse -Force public\storage
+    ```
+
+2. **Tạo liên kết tượng trưng mới trong thư mục công khai của Laravel**:
+    ```sh
+    php artisan storage:link
+    ```
+
+3. **Tạo bảng cơ sở dữ liệu**:
+    ```sh
+    php artisan migrate:fresh --seed
+    ```
+
+4. **Khởi động dự án Laravel**:
+    ```sh
+    php artisan serve
+    ```
+
+5. **Truy cập địa chỉ localhost xuất hiện**:
+    ```sh
+    http://127.0.0.1:8000/
+    ```
+
+## Thông Tin Liên Hệ Tác Giả
+- **Họ Tên**: Ngô Tấn Lợi
+- **Số Điện Thoại**: +84 337 120 073
+- **Email**: ngotanloi2424@gmail.com
+

@@ -35,7 +35,7 @@ Dự án sử dụng Laravel Framework. Các thành phần chính của hệ th�
 
 2. **Tải dự án từ GitHub**:
     ```sh
-    git clone https://github.com/NgoTanLoi01/itshop-laravel-vuejs.git
+    https://github.com/NgoTanLoi01/tn-da20tta-110120166-ngotanloi-phattrienwebsitebtbth.git
     ```
 
 3. **Thiết lập dự án**:
@@ -72,6 +72,5 @@ Dự án sử dụng Laravel Framework. Các thành phần chính của hệ th�
 
 ## Thông Tin Liên Hệ Tác Giả
 - **Họ Tên**: Ngô Tấn Lợi
-- **Số Điện Thoại**: +84 337 120 073
 - **Email**: ngotanloi2424@gmail.com
 

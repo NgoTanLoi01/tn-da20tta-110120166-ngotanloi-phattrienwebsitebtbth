@@ -6,12 +6,16 @@
 
 ## Mục Tiêu
 Dự án này nhằm phát triển một website bán thiết bị tin học với các tính năng tiên tiến như:
+- Hỗ trợ nhiều phương thức thanh toán
+- Xét duyệt đơn hàng
 - In hóa đơn bán hàng
 - Gửi email xác nhận đơn hàng
+- Gửi sms xác nhận đơn hàng
+- Đánh giá sản phẩm sau khi nhận hàng
 - Phân quyền quản trị hệ thống
 - Đề xuất sản phẩm thường được mua kèm
 - Đề xuất sản phẩm trong khi tìm kiếm
-- Hệ thống hỗ trợ thông minh (chat AI)
+- Hệ thống hỗ trợ thông minh (Chatbot AI)
 - Chat trực tiếp với nhân viên
 
 ## Kiến Trúc

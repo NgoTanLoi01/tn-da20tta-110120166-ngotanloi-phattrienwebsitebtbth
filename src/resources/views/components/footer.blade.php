@@ -75,13 +75,7 @@
         style="border-radius:50%;" id="chatbot-icon" width="68px" height="" style=" cursor: pointer;">
 </div>
 <div id="chatbot-frame-container" style="display: none;">
-    {{-- chatbot tranhoangnam --}}
-    {{-- <iframe src="https://app.chatfly.co/chat/9053d6d7-ed43-4814-ba31-e0c78b47153c" width="440px" height="541px"
-        style="border:1px solid black; border-radius: 10px;"></iframe> --}}
-    {{-- chatbot ngotanloi2424 --}}
-    <iframe src="https://app.chatfly.co/chat/6d58feb0-c166-4ce4-9d7e-63a37e64ec81" width="440px" height="541px"
-        style="border:1px solid black; border-radius: 10px;"></iframe>
-
+    {{-- API Chatbot --}}
 </div>
 
 {{-- Chat Fly AI --}}
@@ -111,14 +105,7 @@
         });
     });
 </script>
-<script>
-    window.chatbotConfig = {
-        //bot_id tranhoannam
-        bot_id: "9053d6d7-ed43-4814-ba31-e0c78b47153c",
-        //bot_id ngotanloi
-        // bot_id: "6d58feb0-c166-4ce4-9d7e-63a37e64ec81",
-    };
-</script>
+
 <script src="https://app.chatfly.co/Chat.js"></script>
 
 <style>
@@ -164,5 +151,3 @@
 </style>
 
 {{-- Chat FPT AI --}}
-<link rel="stylesheet" href="{{ asset('fptchat/main.css') }}">
-<script src="{{ asset('fptchat/main.js') }}"></script>
